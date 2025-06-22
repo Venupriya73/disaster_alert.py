@@ -12,7 +12,7 @@
 
        disaster = input("Enter the type of     natural disaster: ").lower()
 
-       solution =      disaster_solutions.get(disaster)              
+       solution = disaster_solutions.get(disaster)              
        if solution:
          print(f"Safety Tips for {disaster.title()}: {solution}")
        else:
